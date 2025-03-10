@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Head-Tails</title>
+    <link rel="stylesheet" href="head-tails.css" />
+  </head>
+  <body>
+    <p class="title">Coin Flip Game</p>
+    <p class="js-result result"></p>
+    <p class="js-coin-flip coin-flip"></p>
+    <p class="js-score score"></p>
+    <button class="head" onclick="playGame('heads');">Head</button>
+    <button class="tails" onclick="playGame('tails');">Tails</button>
+    <p>
+      <button
+        class="reset-score"
+        onclick="
+        resetScore(); 
+        toggling(this);"
+      >
+        Reset Score
+      </button>
+    </p>
+
+    <script src="head-tails.js"></script>
+  </body>
+</html>

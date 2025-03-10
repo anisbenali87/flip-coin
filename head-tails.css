@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.result {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.coin-flip .score {
+  font-size: 22px;
+}
+
+.head,
+.tails {
+  background-color: gold;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.reset-score {
+  background-color: red;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  width: 144px;
+  cursor: pointer;
+}
+
+.is-toggled {
+  background-color: rgb(240, 240, 240);
+  color: black;
+}
